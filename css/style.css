@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: rgb(111, 93, 175);
+}
+#admin-box{
+    background-color: rgb(12, 28, 243);
+    color: rgb(12, 11, 9);
+    text-align: center;
+    width: 25%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+
+
+}
+/*reset page*/
+#admin-box1{
+    background-color: rgb(7, 197, 231);
+    color: rgb(7, 6, 5);
+    text-align: center;
+    width: 25%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 13, 117);
+}
+/*reset page*/
+.admin-box{
+    background-color: rgb(135, 142, 238);
+    color: rgb(12, 11, 9);
+    text-align: center;
+    width: 30%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+
+}
+.admin-img{
+    width:150px;
+
+}
+#admin-box h1{
+    font-size: 35;
+    text-transform: capitalize;
+    color: black;
+
+}
+/*#admin-box h3{
+    font-size: 35;
+    text-transform: uppercase;
+}*/
+input,label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+
+}
+input{
+    background-color: rgb(229, 229, 241);
+    margin: 15px;
+    color: rgb(7, 5, 3);
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+label{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+    color: black;
+    
+}
+p a{
+    
+    text-decoration: none;
+    color: rgb(243, 238, 237);
+    
+
+}
+input:focus{
+    background-color: rgb(197, 203, 226);
+}
+input::placeholder{
+    color: black;
+}
+input[type="submit"]{
+    background-color: rgb(13, 188, 241);
+    border: 1px solid rgb(185, 248, 10);
+    margin: 20px auto;
+    width: 25%;
+    transition: ease-in-out 0.5s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(40, 19, 224);
+}
